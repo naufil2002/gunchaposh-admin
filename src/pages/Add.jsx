@@ -100,10 +100,10 @@ const Add = ({token}) => {
             <div>
               <p className='mb-2'>Product category</p>
               <select onChange={(e) => setCategory(e.target.value)} className='w-full px-3 py-2'>
-                  <option value="Men">Men</option>
-                  <option value="Women">Women</option>
-                  <option value="Kids">Kids</option>
-                  <option value="New">New</option>
+                  <option value="Abaya">Abaya</option>
+                  <option value="Kurti">Kurti</option>
+                  <option value="Wedding dress">Wedding dress</option>
+                  <option value="Casual">Casual</option>
               </select>
             </div>
 
